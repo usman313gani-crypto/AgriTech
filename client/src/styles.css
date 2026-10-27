@@ -1,0 +1,37 @@
+:root { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #183529; background: #f8faf7; }
+body { margin: 0; background: #f8faf7; }
+a { color: #1d7048; }
+.app-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.app-navbar { background: #174b32; box-shadow: 0 2px 14px #153d2b1c; }
+.navbar-brand { letter-spacing: -.3px; }
+.hero-section { overflow: hidden; background: linear-gradient(120deg, #eef7e9 0%, #f8fbf4 62%, #e0f0dc 100%); }
+.eyebrow, .section-kicker { color: #27734a; font-weight: 750; text-transform: uppercase; font-size: .78rem; letter-spacing: 1.3px; }
+.hero-section h1 { color: #173e2c; line-height: 1.12; letter-spacing: -1.7px; }
+.hero-section h1 span { color: #2b8654; }
+.hero-section .lead { max-width: 620px; color: #52685b; }
+.hero-illustration { position: relative; min-height: 330px; border-radius: 28px; overflow: hidden; background: linear-gradient(#bfe6e8 0%, #e5f3d9 67%, #c9e4a9 100%); box-shadow: 0 24px 60px #23573b1c; }
+.sun { position: absolute; top: 34px; right: 48px; font-size: 48px; color: #f5bd48; }
+.hill { position: absolute; width: 130%; height: 210px; border-radius: 50% 50% 0 0; bottom: -88px; transform: rotate(-8deg); }
+.hill-one { background: #75b56c; left: -12%; bottom: -105px; }
+.hill-two { background: #347c4e; left: 12%; bottom: -140px; transform: rotate(9deg); }
+.field-lines { position: absolute; inset: 175px -40px -100px 80px; opacity: .45; background: repeating-linear-gradient(165deg, transparent 0 18px, #d5e9a6 19px 22px); transform: rotate(-4deg); }
+.hero-caption { position: absolute; bottom: 20px; left: 20px; background: #ffffffed; color: #20593b; border-radius: 999px; padding: 11px 15px; font-weight: 650; font-size: .9rem; }
+.feature-card, .tool-card, .auth-card { background: white; border: 1px solid #e5ece4; border-radius: 20px; padding: 27px; box-shadow: 0 8px 26px #1e54300a; }
+.feature-card { transition: transform .18s ease, box-shadow .18s ease; }
+.feature-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px #1e543014; }
+.feature-icon, .auth-icon, .stat-icon { display: inline-flex; align-items: center; justify-content: center; width: 52px; height: 52px; border-radius: 15px; background: #e8f5e9; color: #237548; font-size: 1.45rem; }
+.auth-wrap { flex: 1; }
+.auth-card { max-width: 510px; padding: 34px; }
+.auth-icon { width: 62px; height: 62px; font-size: 1.7rem; }
+.form-control, .form-select { border-color: #dbe5dc; border-radius: 10px; padding-top: .7rem; padding-bottom: .7rem; }
+.form-control:focus, .form-select:focus { border-color: #5eaa7b; box-shadow: 0 0 0 .2rem #2e8b571c; }
+.btn-success { background: #237548; border-color: #237548; }
+.btn-success:hover { background: #195d38; border-color: #195d38; }
+.stat-card { background: #fff; border: 1px solid #e5ece4; border-radius: 16px; padding: 18px; display: flex; align-items: center; gap: 14px; min-height: 105px; }
+.stat-card small { color: #738276; display: block; margin-bottom: 5px; }
+.stat-icon { flex-shrink: 0; }
+.role-pill { background: #e4f3e7; color: #226d43; border-radius: 999px; padding: 9px 15px; text-transform: capitalize; font-weight: 650; }
+.status-label { display: inline-block; background: #f1f6f0; color: #4c6d56; border-radius: 8px; padding: 6px 9px; }
+.notice-panel { background: #edf6e9; border: 1px solid #d9ebd1; padding: 17px 20px; border-radius: 14px; color: #355c40; }
+.app-footer { margin-top: auto; padding: 20px 0; border-top: 1px solid #e6ece5; color: #6b7b70; font-size: .9rem; background: #fff; }
+@media (max-width: 767px) { .hero-section h1 { font-size: 2.5rem; } .hero-illustration { min-height: 260px; } .auth-card { padding: 25px 20px; } }
