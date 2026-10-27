@@ -3,6 +3,7 @@
 node_modules/
 client/node_modules/
 server/node_modules/
+client/index.html
 
 # Environment variables and secrets
 .env
