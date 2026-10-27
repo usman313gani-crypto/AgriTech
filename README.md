@@ -434,7 +434,7 @@ Medicaps University
 
 ## Repository
 
-**GitHub:** Add the URL of your AgriTech repository here.
+**GitHub:** https://github.com/usman313gani-crypto/AgriTech.git
 
 ---
 
